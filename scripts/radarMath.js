@@ -12,6 +12,19 @@ export class RadarMath {
     return uniqueItems.length / this.data.grid.length;
   }
 
+//////Where do I see the Output?
+RadarData() {
+  var dataset = []
+  d3.csv("Radar_Data.csv", function(data) {
+     dataset = data.map(function(d) { return [ +d["People Working"], +d["Residents"] ]; 
+    });
+     //console.log(dataset)
+     return dataset / d.length;
+    });
+  }
+
+
+
   ///////////////////////////
 
   typeRatio(type) {

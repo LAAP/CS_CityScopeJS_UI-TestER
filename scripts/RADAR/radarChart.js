@@ -39,7 +39,7 @@ export function RadarChart() {
       opacity: 0.35,
       borderWidth: 2,
       rounded: false,
-      dotRadius: 4,
+      dotRadius: 1,
       sort: true, // sort layers by approximation of size, smallest on top
       filter: []
     },
