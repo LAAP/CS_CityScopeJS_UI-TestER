@@ -21,6 +21,7 @@ RadarData() {
      //console.log(dataset)
      return dataset / d.length;
     });
+    
   }
 
 
